@@ -23,6 +23,7 @@ class ListingCallButton @JvmOverloads constructor(
 
     init {
         setText(context.getString(R.string.init_listing_library_button_text))
+        setClickEvent()
     }
 
     private fun setText(text: String) {
